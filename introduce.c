@@ -12,6 +12,7 @@ int count2;
 // 声明的时候，可以没有变量名称
 void sayHello(int,int);
 void printArray(int [],int);
+void alterCount(int* i);
 
 void introduce(){
     printf("||**********************introduce start******************||\r\n");
@@ -76,6 +77,7 @@ void printArray(int a[],int size){
     printf("\r\n");
 
 }
+
 
 void alterCount(int* i){
     *i=999;
